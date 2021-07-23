@@ -40,8 +40,10 @@ class Details extends StatelessWidget {
                   )
                 ],
               ),
-              Column(
-
+              Column( //
+                children: [
+                  
+                ],
               ),
               Column(
 
