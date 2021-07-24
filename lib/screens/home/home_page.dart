@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tudo_gostoso/models/recipe.dart';
 import 'package:tudo_gostoso/screens/home/widgets/details.dart';
+import 'package:tudo_gostoso/screens/home/widgets/ingredients.dart';
 import 'package:tudo_gostoso/style.dart';
 
 class HomePage extends StatelessWidget {
@@ -33,6 +34,7 @@ class HomePage extends StatelessWidget {
           children: [
             Image.asset(recipe.photo),
             Details(recipe),
+            Ingredients()
           ], 
         ),
       ),
